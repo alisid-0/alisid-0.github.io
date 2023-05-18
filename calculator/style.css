@@ -1,0 +1,49 @@
+
+body{
+    font-family: 'Rubik', sans-serif;
+    background-color: black;
+}
+
+
+
+#screen-container {
+    border: 2px solid aqua;
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 200px; 
+    text-align: center; 
+  }
+#screen-text{
+    color: aqua;
+    text-align: right;
+    font-size: 50px;
+    margin-right: 10px;
+}
+.buttons-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#digits-container{
+    margin-left: 0px;
+}
+
+#operators-container{
+    margin-top: 19px;
+    display:flex;
+    flex-direction: column;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    margin: 5px;
+    padding: 10px;
+    background-color: transparent;
+    border: 5px solid aqua;
+    color: aliceblue;
+}

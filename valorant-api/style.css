@@ -1,0 +1,143 @@
+/* @font-face {
+    font-family:'VALORANT';
+    src: url('VALORANT.eot');
+	src: url('VALORANT.eot?#iefix') format('embedded-opentype'),
+		url('VALORANT.woff2') format('woff2'),
+		url('VALORANT.woff') format('woff'),
+		url('VALORANT.svg#VALORANT') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-007C;
+} */
+
+body{
+    font-family:'VALORANT';
+    src: url('VALORANT.eot');
+	src: url('VALORANT.eot?#iefix') format('embedded-opentype'),
+		url('VALORANT.woff2') format('woff2'),
+		url('VALORANT.woff') format('woff'),
+		url('VALORANT.svg#VALORANT') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-007C;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    margin: 0 auto;
+    margin-top: 100px;
+    color: black;
+    font-size: 200px;
+}
+
+h2{
+    font-size: 80px;
+}
+
+h3{
+    font-size:50px;
+}
+
+input{
+    width:500px;
+    height: 100px;
+    font-size: 30px;
+    font-family:'VALORANT';
+    text-align: center;
+    margin-left: 110px;
+    border: 0px;
+    background-color: black;
+    color: white;
+}
+
+button{
+    padding-top: 10px;
+    margin-bottom: 30px;
+    font-family: 'VALORANT';
+    width: 100px;
+    height: 100px;
+    border: 0px;
+}
+
+.agent{
+    display: flex;
+    flex-direction: column;
+}
+#agent-img{
+    max-width:300px;
+    max-height: 300px;
+}
+
+#agent-portrait{
+    display:flex;
+    min-height: 1800px;
+    min-width: 1000px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.abilities{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#abilities-spread{
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+.ability{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.abilityDesc{
+    text-align: center;
+    font-size:25px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.ability-name-img{
+    display: flex;
+    flex-direction: row;
+}
+
+.ability-img{
+    margin-top:45px;
+    margin-left: 20px;
+    width:50px;
+    height: 50px;
+}
+
+#agent-section{
+    font-size: 60px;
+    text-align: center;
+    height: 0px;
+}
+
+.role-title{
+    font-size: 40px;
+}
+
+#agent-description{
+    font-size: 30px;
+}
+
+#img-role-desc{
+    display: flex;
+}
+
+.agent-portrait{
+    max-width: 1200px;
+    margin: 0;
+    padding: 0px;
+}
